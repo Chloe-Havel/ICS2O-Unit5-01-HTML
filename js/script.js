@@ -33,11 +33,3 @@ function updateSliderValue(valueFromSlider) {
       "the answer was, " + randomNumber + "!" + "Nice guess, but try again."
   }
 }
-
-/**
- * This function displays the slider value.
- */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML =
-    "<p>Value is: " + slider.value + "</p>"
-}
