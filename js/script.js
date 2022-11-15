@@ -21,6 +21,17 @@ if (navigator.serviceWorker) {
  */
 function updateSliderValue(valueFromSlider) {
   document.getElementById("slider-value").innerHTML = valueFromSlider
+
+  //process
+  if (valueFormSlider == randomNumber) {
+    document.getElementById("answer").innerHTML =
+      "The answer was, " + randomNumber + "!" + "You got it! Good job."
+  }
+  // block of code to be executed if condition1 is true
+  if (valueFromSlider != randomNumber) {
+    document.getElementById("answer").innerHTML =
+      "the answer was, " + randomNumber + "!" + "Nice guess, but try again."
+  }
 }
 
 /**
