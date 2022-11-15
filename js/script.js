@@ -7,7 +7,7 @@
 /**
  * Check servie worker.
  */
-  if (navigator.serviceWorker) {
+if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
     "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
     {
