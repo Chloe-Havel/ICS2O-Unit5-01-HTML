@@ -9,9 +9,9 @@
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
-    "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
+    "/ICS2O-Unit5-01-HTML/sw.js",
     {
-      scope: "/ICS2O-Unit5-01-HTML-Slider-Example/",
+      scope: "/ICS2O-Unit5-01-HTML/",
     }
   )
 }
