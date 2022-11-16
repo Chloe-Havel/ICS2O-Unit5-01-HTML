@@ -24,7 +24,7 @@ const randomNumber = Math.floor(Math.random() * 6) + 1  // returns a random inte
 function updateSliderValue(valueFromSlider) {
   document.getElementById("slider-value").innerHTML = valueFromSlider
   //process
-  if (valueFormSlider == randomNumber) {
+  if (valueFromSlider == randomNumber) {
     document.getElementById("answer").innerHTML =
       "The answer was, " + randomNumber + "!" + "You got it! Good job."
   }
