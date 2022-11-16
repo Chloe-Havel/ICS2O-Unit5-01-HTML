@@ -8,12 +8,9 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register(
-    "/ICS2O-Unit5-01-HTML/sw.js",
-    {
-      scope: "/ICS2O-Unit5-01-HTML/",
-    }
-  )
+  navigator.serviceWorker.register("/ICS2O-Unit5-01-HTML/sw.js", {
+    scope: "/ICS2O-Unit5-01-HTML/",
+  })
 }
 
 const randomNumber = Math.floor(Math.random() * 6) + 1 // returns a random integer from 1 to 6 into variable "randomNumber"
